@@ -1,6 +1,5 @@
 """
-Builds a machine learning dataset from the BLASTNet Lifted Hydrogen Jet
-simulation data.
+Builds a machine learning dataset from the Hydrogen Jet simulation data.
 
 Workflow
 
