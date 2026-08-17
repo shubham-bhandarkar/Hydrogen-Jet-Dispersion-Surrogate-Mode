@@ -2,11 +2,11 @@
 
 # Overview
 
-This project develops a machine learning surrogate model for predicting hydrogen mass fraction from high-fidelity Computational Fluid Dynamics (CFD) simulations of a lifted hydrogen jet flame.
+This project develops a machine learning surrogate model for predicting hydrogen mass fraction from Computational Fluid Dynamics (CFD) simulations of a lifted hydrogen jet flame.
 
 Instead of repeatedly running computationally expensive CFD simulations, the trained machine learning model predicts the hydrogen concentration field using local flow properties, providing a fast approximation suitable for engineering analysis.
 
-The project follows a complete end-to-end machine learning workflow including data processing, exploratory data analysis (EDA), model training, evaluation, and model explainability.
+The project follows a machine learning workflow: data processing, exploratory data analysis (EDA), model training, evaluation, and model explainability.
 
 
 # Project Objectives
@@ -16,7 +16,7 @@ The project follows a complete end-to-end machine learning workflow including da
  Train regression models for hydrogen concentration prediction
  Compare multiple machine learning algorithms
  Evaluate model performance
- Interpret predictions using SHAP explainability
+
 
 
 # Target Variable
@@ -50,9 +50,6 @@ evaluate.py
         │
         ▼
 Performance Report
-        │
-        ▼
-explain.py
 
 
 
